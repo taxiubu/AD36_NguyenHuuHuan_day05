@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KhongMuonChepPhat</string>
+    <string name="userName">Tên đăng nhập</string>
+    <string name="passWord">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="errorUser">Tên đăng nhập không đúng</string>
+    <string name="errorPass">Mật khẩu không đúng</string>
+    <string name="errorCreatName">Tên đăng nhập đã được dùng</string>
+    <string name="errorCreatPass">Mật khẩu chứa chữ hoa, chữ thường, số, kí tự</string>
+    <string name="errorRePass">Mật khẩu không đúng</string>
+    <string name="creatAccount">Tạo tài khoản</string>
+    <string name="rePassword">Nhập lại mật khẩu</string>
+    <string name="hello">Chào mừng đến với TeaPet</string>
+    <string name="done">Hợp lệ</string>
+</resources>

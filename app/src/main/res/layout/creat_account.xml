@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginTop="@dimen/_20sdp"
+        android:hint="@string/userName"
+        android:id="@+id/etCreatUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_below="@+id/tvErrorCreatUser"
+        android:hint="@string/passWord"
+        android:id="@+id/etCreatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="@string/rePassword"
+        android:layout_below="@id/tvErrorCreatPass"
+        android:id="@+id/etRePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/colorRed"
+        android:layout_below="@id/etCreatUsername"
+        android:id="@+id/tvErrorCreatUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/colorRed"
+        android:layout_below="@id/etCreatPassword"
+        android:id="@+id/tvErrorCreatPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvErrorRePass"
+        android:layout_below="@id/etRePassword"
+        android:textColor="@color/colorRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_below="@+id/tvErrorRePass"
+        android:id="@+id/btDone"
+        android:text="@string/creatAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
